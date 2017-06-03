@@ -1,7 +1,10 @@
 'use strict';
-otcApp.controller("buttonsController", ['$scope', function($scope){
+otcApp.controller("buttonsController", ['$scope', 'maxFactory', function($scope, maxFactory){
   $scope.first = function() {
-    console.log("HELLO");
+    var object = maxFactory.object;
+    var newNumber = parseInt(object.red) + 1;
+    console.log(newNumber);
+    maxFactory.update(newNumber);
   };
   $scope.second = function() {
     console.log("GOODBYE");

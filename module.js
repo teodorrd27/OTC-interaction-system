@@ -1,2 +1,2 @@
 'use strict';
-var otcApp = angular.module('otcApp', ['$scope']);
+var otcApp = angular.module('otcApp', []);

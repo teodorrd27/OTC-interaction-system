@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="otcApp">
   <head>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- my own -->
     <link rel="stylesheet" href="./main.css">
   </head>
-  <body ng-app="otcApp" ng-controller="buttonsController">
-    <button type="button" onclick="first()">
+  <body ng-controller="buttonsController">
+    <button type="button" ng-click="first()">
     <div class="first-button">
     </div></button>
-    <button type="button" onclick="second()">
+    <button type="button" ng-click="second()">
     <div class="second-button">
     </div></button>
-    <button type="button" onclick="third()">
+    <button type="button" ng-click="third()">
     <div class="third-button">
     </div></button>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>

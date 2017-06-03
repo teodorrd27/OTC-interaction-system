@@ -1,0 +1,17 @@
+button {
+  width:100%;
+}
+.first-button, .second-button, .third-button {
+  height:33.333vh;
+  border: solid 2px #333;
+  border-radius: 40px;
+}
+.first-button {
+  background-color: crimson;
+}
+.second-button {
+  background-color: #ede140;
+}
+.third-button {
+  background-color: #13c42e;
+}

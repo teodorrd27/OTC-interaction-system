@@ -1,14 +1,15 @@
 'use strict';
-otcApp.factory('maxFactory', function(){
+otcApp.factory('maxFactory', ['$resource', function($resource){
   var maxFac = {};
-  maxFac.object = {
-    red: '0',
-    yellow: '0',
-    green: '0'
-  };
+  var Votes = $resource('http://localhost:3000/colors', null, {update: {method: 'PUT'}});
+  maxFac.votes = Votes.get( function(){
+    console.log(maxFac.votes);
+  });
   maxFac.update = function(newNumber, index){
-    maxFac.object[index] = newNumber;
-    console.log(maxFac.object);
+    maxFac.votes[index] = newNumber;
+    console.log(maxFac.votes);
+    var $id = maxFac.votes.id;
+    Votes.update(null, maxFac.votes);
   };
   return maxFac;
-});
+}]);

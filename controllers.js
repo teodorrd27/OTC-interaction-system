@@ -1,20 +1,20 @@
 'use strict';
 otcApp.controller("buttonsController", ['$scope', 'maxFactory', function($scope, maxFactory){
-  var object = maxFactory.object;
+  var votes = maxFactory.votes;
   $scope.first = function() {
 
-    var newNumber = parseInt(object.red) + 1;
+    var newNumber = parseInt(votes.red) + 1;
     maxFactory.update(newNumber, 'red');
-    console.log(object.red);
+    console.log(votes.red);
   };
   $scope.second = function() {
-    var newNumber = parseInt(object.yellow) + 1;
+    var newNumber = parseInt(votes.yellow) + 1;
     maxFactory.update(newNumber, 'yellow');
-    console.log(object.yellow);
+    console.log(votes.yellow);
   };
   $scope.third =function() {
-    var newNumber = parseInt(object.green) + 1;
+    var newNumber = parseInt(votes.green) + 1;
     maxFactory.update(newNumber, 'green');
-    console.log(object.green);
+    console.log(votes.green);
   };
 }]);

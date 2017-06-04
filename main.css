@@ -1,8 +1,9 @@
-button {
+a, button {
   width:100%;
+  min-height:300px;
 }
 .first-button, .second-button, .third-button {
-  height:33.333vh;
+  min-height: 300px;
   border: solid 2px #333;
   border-radius: 40px;
 }

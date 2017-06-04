@@ -1,2 +1,2 @@
 'use strict';
-var otcApp = angular.module('otcApp', []);
+var otcApp = angular.module('otcApp', ['ngResource', 'ngRoute']);

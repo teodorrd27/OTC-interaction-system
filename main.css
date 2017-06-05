@@ -1,11 +1,17 @@
-a, button {
+button {
   width:100%;
-  min-height:300px;
-}
-.first-button, .second-button, .third-button {
-  min-height: 300px;
   border: solid 2px #333;
   border-radius: 40px;
+  padding:0px;
+  margin-top: 20px;
+}
+h1 {
+  margin: 0px;
+  padding-top: 50px;
+}
+.first-button, .second-button, .third-button {
+  height:30vh;
+    border-radius: 40px;
 }
 .first-button {
   background-color: crimson;

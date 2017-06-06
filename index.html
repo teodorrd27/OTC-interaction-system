@@ -8,13 +8,13 @@
   </head>
   <body ng-controller="buttonsController">
     <div class="container-fluid">
-    <button type="button" ng-click="first()">
+    <button type="button" id="button1" ng-click="first()">
     <div ontouchstart="" class="first-button button"><h1>{{red}}</h1>
     </div></button>
-    <button type="button" ng-click="second()">
+    <button type="button" id="button2" ng-click="second()">
     <div ontouchstart="" class="second-button button"><h1>{{yellow}}</h1>
     </div></button>
-    <button type="button" ng-click="third()">
+    <button type="button" id="button3" ng-click="third()">
     <div ontouchstart="" class="third-button button"><h1>{{green}}</h1>
     </div></button>
   </div>
@@ -23,5 +23,9 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="module.js"></script>
     <script src="controllers.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
   </body>
 </html>

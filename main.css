@@ -9,7 +9,10 @@ h1 {
   margin: 0px;
   padding-top: 50px;
 }
-
+button[disabled] > div {
+  background-color:#333;
+  color:salmon;
+}
 .button {
   height:30vh;
     border-radius: 40px;

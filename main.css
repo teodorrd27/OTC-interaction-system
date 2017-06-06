@@ -9,13 +9,18 @@ h1 {
   margin: 0px;
   padding-top: 50px;
 }
-.first-button, .second-button, .third-button {
+
+.button {
   height:30vh;
     border-radius: 40px;
+}
+.button:active {
+  background-color:black;
 }
 .first-button {
   background-color: crimson;
 }
+
 .second-button {
   background-color: #ede140;
 }

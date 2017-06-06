@@ -1,5 +1,5 @@
 'use strict';
-otcApp.controller("buttonsController", ['$scope', /*'maxFactory',*/ '$resource', function($scope, /*maxFactory,*/ $resource){
+otcApp.controller("buttonsController", ['$scope', '$resource', function($scope, $resource){
   var votes = {};
   var Votes = $resource('http://192.168.1.180:3000/colors', null, {update: {method: 'PUT'}});
   $scope.first = function() {

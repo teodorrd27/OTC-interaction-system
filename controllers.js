@@ -3,11 +3,10 @@ otcApp.controller("buttonsController", ['$scope', '$resource', function($scope, 
   var votes = {};
   var Votes = $resource('http://192.168.1.180:3000/colors', null, {update: {method: 'PUT'}});
   $scope.first = function() {
-    $('button').prop('disabled', true);
+    $("button").prop('disabled', true);
     votes = Votes.get( function(){
       console.log(votes);
       votes.red = parseInt(votes.red) + 1;
-
       console.log(votes);
       Votes.update(null, votes);
       $scope.red = "voted";
@@ -16,11 +15,10 @@ otcApp.controller("buttonsController", ['$scope', '$resource', function($scope, 
   };
 
   $scope.second = function() {
-    $('button').prop('disabled', true);
+    $("button").prop('disabled', true);
     votes = Votes.get( function(){
       console.log(votes);
       votes.yellow = parseInt(votes.yellow) + 1;
-
       console.log(votes);
       Votes.update(null, votes);
       $scope.yellow = "voted";
@@ -28,11 +26,10 @@ otcApp.controller("buttonsController", ['$scope', '$resource', function($scope, 
   };
 
   $scope.third =function() {
-    $('button').prop('disabled', true);
+    $("button").prop('disabled', true);
     votes = Votes.get( function(){
       console.log(votes);
       votes.green = parseInt(votes.green) + 1;
-
       console.log(votes);
       Votes.update(null, votes);
       $scope.green = "voted";

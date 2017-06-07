@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1046.0, 582.0 ],
+		"rect" : [ 34.0, 78.0, 652.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -148,7 +148,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.607843, 0.776471, 0.886275 ],
+					"bgcolor" : [ 0.992157, 0.92549, 0.827451 ],
 					"id" : "obj-244",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -180,10 +180,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.0, 262.5, 169.0, 47.0 ],
+					"patching_rect" : [ 583.0, 262.5, 163.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 137.0, 73.0, 169.0, 47.0 ],
+					"presentation_rect" : [ 137.0, 73.0, 163.0, 47.0 ],
 					"style" : "Orange Comment",
 					"text" : "Output a bang for the biggest vote to show the outcome"
 				}
@@ -196,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.0, 162.0, 158.0, 60.0 ],
+					"patching_rect" : [ 583.0, 162.0, 160.0, 60.0 ],
 					"style" : "Orange Comment",
 					"text" : "Which is the largest number TODO: Make it a less difficult solution to find largest number"
 				}
@@ -225,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 275.0, 162.0, 60.0 ],
+					"patching_rect" : [ 94.0, 275.0, 158.0, 60.0 ],
 					"style" : "Orange Comment",
 					"text" : "Some error double checking in case something's gone wrong with the votes.json"
 				}
@@ -251,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 50.0, 160.0, 74.0 ],
+					"patching_rect" : [ 162.0, 50.0, 158.0, 74.0 ],
 					"style" : "Orange Comment",
 					"text" : "Those bangs trigger after one another so that the votes dictionary get updated after import not before"
 				}
@@ -307,7 +307,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 946.5, 237.0, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "0.886275"
+					"text" : "0.827451"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 865.0, 236.0, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "0.776471"
+					"text" : "0.92549"
 				}
 
 			}
@@ -722,7 +722,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 524.75, 358.5, 59.0, 62.0 ],
+					"patching_rect" : [ 524.75, 358.5, 63.0, 62.0 ],
 					"style" : "",
 					"text" : "bgfillcolor 0.0745 0.7686 0.1804 1"
 				}
@@ -736,7 +736,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.25, 358.5, 59.0, 62.0 ],
+					"patching_rect" : [ 440.25, 358.5, 63.0, 62.0 ],
 					"style" : "",
 					"text" : "bgfillcolor 0.9294 0.8824 0.251 1"
 				}
@@ -751,7 +751,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 783.5, 236.0, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "0.607843"
+					"text" : "0.992157"
 				}
 
 			}
@@ -786,7 +786,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.0745, 0.7686, 0.1804, 1 ],
+					"bgcolor" : [ 0.8627, 0.0784, 0.2353, 1 ],
 					"border" : 1,
 					"id" : "obj-79",
 					"maxclass" : "panel",
@@ -868,7 +868,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 168.0, 48.0, 42.0 ],
 					"style" : "",
-					"text" : "33"
+					"text" : "0"
 				}
 
 			}
@@ -897,7 +897,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 168.0, 44.0, 42.0 ],
 					"style" : "",
-					"text" : "32"
+					"text" : "0"
 				}
 
 			}
@@ -926,7 +926,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.5, 168.0, 44.0, 42.0 ],
 					"style" : "",
-					"text" : "31"
+					"text" : "0"
 				}
 
 			}

@@ -1,7 +1,16 @@
 {
-  "colors": {
-    "red": 0,
-    "yellow": 0,
-    "green": 0
-  }
+	"colors" : 	{
+		"red" : 13,
+		"yellow" : 7,
+		"green" : 0,
+		"voted" : 14
+	}
+,
+	"context" : 	{
+		"question" : "What would you like to happen next?",
+		"red" : "Answer 1",
+		"yellow" : "Answer 2",
+		"green" : "Answer 3"
+	}
+
 }

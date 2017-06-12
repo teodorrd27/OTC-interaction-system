@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 639.0, 211.0, 741.0, 736.0 ],
+		"rect" : [ 754.0, 79.0, 652.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.166626, 751.0, 338.0, 35.0 ],
+					"patching_rect" : [ 627.0, 799.5, 338.0, 35.0 ],
 					"style" : "",
 					"text" : "set context::question \"context 4\", set context::red \"Answer 1\", set context::yellow \"Answer 2\", set context::green \"Answer 3\""
 				}

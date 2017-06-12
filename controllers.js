@@ -1,7 +1,7 @@
 'use strict';
 otcApp.controller("buttonsController", ['$scope', '$resource', '$interval', function($scope, $resource, $interval){
   var votes = {};
-  var Votes = $resource('http://192.168.0.15:3000/colors', null, {update: {method: 'PUT'}});
+  var Votes = $resource('http://localhost:3000/colors', null, {update: {method: 'PUT'}});
   $scope.first = function() {
     $("button").prop('disabled', true);
     votes = Votes.get( function(){
@@ -35,7 +35,7 @@ otcApp.controller("buttonsController", ['$scope', '$resource', '$interval', func
     });
   };
   var context = {};
-  var Context = $resource('http://192.168.0.15:3000/context');
+  var Context = $resource('http://localhost:3000/context');
   context = Context.get(function(){
     console.log(context.question);
     $scope.context = context.question;
